@@ -1,0 +1,31 @@
+.caixa {
+  width: 300px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.textalive {
+  font-size: 20px;
+  color: rgb(32, 161, 133);
+}
+
+.textdead {
+  font-size: 20px;
+  color: rgba(117, 0, 0, 0.516);
+}
+
+img {
+  width: 89%;
+}
+
+.alive {
+  background-color: rgba(153, 247, 234, 0.278);
+}
+
+.dead {
+  background-color: rgba(255, 0, 0, 0.173);
+  border: solid 1px rgb(136, 4, 4);
+}
